@@ -1,9 +1,0 @@
-@import "tailwindcss";
-
-@layer theme {
-    :root {
-        --font-bodoni: 'Bodoni Moda', serif;
-        --font-bodoni-italic: 'Bodoni Moda Italic', serif;
-        --color-primary: shade($primary, 500);
-    }
-}
