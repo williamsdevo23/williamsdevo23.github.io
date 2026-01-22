@@ -5,43 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./output.css" rel="stylesheet">
 </head>
-<body>
-  <nav class="bg-neutral-primary fixed w-full z-20 top-0 start-0 border-b border-default items-center">
-    <div class="max-w-screen-xl flex flex-wrap items-center justify-start mx-auto p-4">
-      <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-default rounded-base bg-neutral-secondary-soft md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-neutral-primary gap-4">
-        <li>
-          <a href="#" class="hover:underline hover:decoration-2">
-            Home
-          </a>
-        </li>
-        <li>
-          <a href="#" class="hover:underline hover:decoration-2">
-            About
-          </a>
-        </li>
-        <li>
-          <a href="#" class="hover:underline hover:decoration-2">
-            Services
-          </a>
-        </li>
-        <li>
-          <a href="#" class="hover:underline hover:decoration-2">
-            Contact
-          </a>
-        </li>
-      </ul>
-    </div>
+<body class="bg-gray-100">
+  <nav class="h-[70px] w-full px-6 md:px-16 lg:px-24 xl:px-32 flex items-center justify-end border-blue-700/30 border-b">
+    <ul class="text-black md:flex hidden items-center gap-10">
+        <li><a class="hover:text-blue-700/70 transition" href="#">Home</a></li>
+        <li><a class="hover:text-blue-700/70 transition" href="#">About</a></li>
+        <li><a class="hover:text-blue-700/70 transition" href="#">Portfolio</a></li>
+        <li><a class="hover:text-blue-700/70 transition" href="#">Contact</a></li>
+    </ul>
   </nav>
-
-  <h1 class="items-center text-4xl font-bold mt-20 mb-8">
-    Welcome to My Website
-  </h1>
-
-  <img src="image.jpg" alt="Sample Image">
-
-  <p class="mt-4 text-lg">
-    This is a sample paragraph to demonstrate the HTML structure.
-  </p>
+  <div>
+    <div>
+      <h1 class="text-3xl font-bold text-center mx-auto pt-10">
+        Devontae Williams
+      </h1>
+      <p class="mt-4 text-lg text-gray-700 text-center">
+        This is a sample HTML file using Tailwind CSS.
+      </p>
+    </div>
+    <img src="/src/pexels-padrinan-343457.jpg" alt="Sample Picture" class="mt-6 mx-auto w-96 rounded-lg shadow-lg">
+  </div>
 
 </body>
 </html>
