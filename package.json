@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/williamsdevo23/williamsdevo23.github.io/issues"
   },
-  "homepage": "https://github.com/williamsdevo23/williamsdevo23.github.io/index.html",
+  "homepage": "https://github.com/williamsdevo23/williamsdevo23.github.io/#readme",
   "dependencies": {
     "@tailwindcss/cli": "^4.1.18",
     "tailwindcss": "^4.1.18"
