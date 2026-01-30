@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/williamsdevo23/williamsdevo23.github.io/#readme",
   "dependencies": {
-    "@tailwindcss/cli": "^4.1.18",
+    "@tailwindcss/cli": "^4.1.18"
+  },
+  "devDependencies": {
     "tailwindcss": "^4.1.18"
   }
 }
